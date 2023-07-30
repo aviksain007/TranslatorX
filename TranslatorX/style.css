@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital@1&display=swap');
+
+*{
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width:100%;
+    max-width: 830px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: darkslategray;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 50%;
+}
+
+#inputText, #outputText{
+    resize: none;
+    height: 35vh;
+}
+
+.card textarea {
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    border-radius: 7px;
+    padding: 12px;
+    font-size: 21px;
+}
+
+.card-body select {
+    display: inline;
+    width: 73%;
+    outline:none;
+    cursor: pointer;
+}
+
+.card-body svg {
+    margin: 2px;
+}
+
+#translateBtn {
+    width: 100%;
+}
+
+.input-group-text{
+    cursor: pointer;
+}
+
+.input-group-text :hover {
+    color: blue;
+}
